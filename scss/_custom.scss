@@ -1,0 +1,68 @@
+$section-bottom-margin: 30px;
+
+// NAVIGATION ------------------------------------------
+nav ul.menu {
+    border-bottom: 1px solid $light-gray;
+    text-transform: uppercase;
+}
+
+nav ul.menu li a {
+    color: $medium-gray;
+}
+
+nav ul.menu li a:hover {
+    color: $dark-gray;
+}
+
+nav {
+    margin-bottom: $section-bottom-margin;
+}
+
+nav div.top-bar,
+nav div.top-bar ul
+{
+    background-color: $white;
+}
+
+
+// TITLE IMAGE ------------------------------------------
+section.title-image {
+    margin-bottom: $section-bottom-margin;
+}
+
+// MAIN SECTION -----------------------------------------
+section.gallary-grid {
+    margin-bottom: $section-bottom-margin;
+}
+
+footer ul.menu li a {
+    color: map-get($foundation-palette, secondary);
+}
+
+
+// FOOTER ------------------------------------------------
+footer ul.menu li a:hover {
+    color: $medium-gray;
+}
+
+footer div.copyright h6 {
+    color: $medium-gray;
+}
+
+footer div.row.copyright {
+    margin-bottom: 20px !important;
+}
+
+footer div.back-to-site a {
+    text-transform: uppercase;
+}
+
+footer div h6 {
+    text-align: center;
+}
+
+// OTHER -------------------------------------------------
+img.thumbnail {
+    border: none;
+    border-radius: 3px;
+}
