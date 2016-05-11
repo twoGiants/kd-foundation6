@@ -22,60 +22,60 @@ $spacing: 30px;
 
 // Navigation 
 // ----------
-nav {
+.top-nav {
     margin-bottom: $spacing;
 }
 
-nav ul.menu {
+.top-nav .menu {
     border-bottom: 1px solid $light-gray;
     text-transform: uppercase;
 }
 
-nav ul.menu li a {
+.top-nav .menu .top-nav-list-content {
     color: $medium-gray;
 }
 
-nav ul.menu li a:hover {
+.top-nav .menu .top-nav-list-content:hover {
     color: $dark-gray;
 }
 
-nav div.top-bar,
-nav div.top-bar ul
+.top-nav .top-bar,
+.top-nav .top-bar .menu
 {
     background-color: $white;
 }
 
 // Title image
 // -----------
-header {
+.hdr {
     margin-bottom: $spacing;
 }
 
 // Main section 
 // ------------
-section.gallary-grid {
+.gallary-grid {
     margin-bottom: $spacing;
 }
 
 // Footer 
 // ------
-footer ul.menu li a {
+.bot-nav .menu .bot-nav-list-content {
     color: map-get($foundation-palette, secondary);
 }
 
-footer ul.menu li a:hover {
+.bot-nav .menu .bot-nav-list-content:hover {
     color: $medium-gray;
 }
 
-footer div.copyright {
+.ftr .copyright {
     margin-bottom: $spacing;
 }
 
-footer div.copyright h6 {
+.ftr .copyright .copyright-content {
     color: $medium-gray;
     text-align: center;
 }
 
-footer div.back-to-site a {
+.ftr .back-to-site {
     text-transform: uppercase;
 }
