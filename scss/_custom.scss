@@ -2,6 +2,13 @@
 // ------
 $body-font-family: Verdana, Arial, Helvetica, sans-serif;
 
+// Grid
+// ----
+$grid-column-gutter: (
+  small: 20px,
+  medium: 20px,
+);
+
 // Thumbnail
 // ---------
 $thumbnail-border: none;
@@ -10,13 +17,15 @@ $thumbnail-shadow: none;
 
 // User
 // ----
-$section-bottom-margin: 30px;
-
-
+$spacing: 30px;
 
 
 // Navigation 
 // ----------
+nav {
+    margin-bottom: $spacing;
+}
+
 nav ul.menu {
     border-bottom: 1px solid $light-gray;
     text-transform: uppercase;
@@ -30,52 +39,43 @@ nav ul.menu li a:hover {
     color: $dark-gray;
 }
 
-nav {
-    margin-bottom: $section-bottom-margin;
-}
-
 nav div.top-bar,
 nav div.top-bar ul
 {
     background-color: $white;
 }
 
-
 // Title image
 // -----------
-section.title-image {
-    margin-bottom: $section-bottom-margin;
+header {
+    margin-bottom: $spacing;
 }
 
 // Main section 
 // ------------
 section.gallary-grid {
-    margin-bottom: $section-bottom-margin;
+    margin-bottom: $spacing;
 }
 
+// Footer 
+// ------
 footer ul.menu li a {
     color: map-get($foundation-palette, secondary);
 }
 
-
-// Footer 
-// ------
 footer ul.menu li a:hover {
     color: $medium-gray;
 }
 
-footer div.copyright h6 {
-    color: $medium-gray;
+footer div.copyright {
+    margin-bottom: $spacing;
 }
 
-footer div.row.copyright {
-    margin-bottom: $section-bottom-margin !important;
+footer div.copyright h6 {
+    color: $medium-gray;
+    text-align: center;
 }
 
 footer div.back-to-site a {
     text-transform: uppercase;
-}
-
-footer div h6 {
-    text-align: center;
 }
