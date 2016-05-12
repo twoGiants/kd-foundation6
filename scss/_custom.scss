@@ -60,7 +60,7 @@ $spacing: 30px;
 // Footer 
 // ------
 .bot-nav .menu .bot-nav-list-content {
-    color: map-get($foundation-palette, secondary);
+    color: map-get($foundation-palette, secondary) !important;
 }
 
 .bot-nav .menu .bot-nav-list-content:hover {

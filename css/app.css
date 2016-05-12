@@ -23,7 +23,7 @@
   margin-bottom: 30px; }
 
 .bot-nav .menu .bot-nav-list-content {
-  color: #777; }
+  color: #777 !important; }
 
 .bot-nav .menu .bot-nav-list-content:hover {
   color: #cacaca; }
